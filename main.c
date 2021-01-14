@@ -31,6 +31,9 @@ int main() {
         
    /* my first program in C */
    printf("What is your name?\n");
+        
+   char foo[1] = {0};
+   memcpy(foo, "asdfsdfsdfds", 3);
    
    scanf("%s", aName);
    
