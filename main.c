@@ -27,19 +27,5 @@ void branchingFactor()
 }
 
 int main() {
-   char aName[256] = {0};
-        
-   /* my first program in C */
-   printf("What is your name?\n");
-        
-   char foo[1] = {0};
-   memcpy(foo, "asdfsdfsdfds", 3);
-   
-   scanf("%s", aName);
-   
-   congratulateUser(aName);
-        
-   branchingFactor();
-   
    return 0;
 }
